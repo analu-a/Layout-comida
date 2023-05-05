@@ -8,18 +8,87 @@ body{
     height: 100vh;
     width: 100vw;
     display: grid;
-    background-color: #FFC1CC;
-    grid-template-rows: 50px 1fr 90px;
+    grid-template-rows: 50px 1fr ;
 }
 
 header{
     background-color: #FDF3EC;
-    font-size: 20px;
+    font-size: 1.5rem;
     display: grid;
-    word-spacing: 20px;
+   
 }
 
-.menu{
-
-    align-items: left;
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC1CC;
 }
+
+
+
+
+.padaria{
+position: absolute;
+width: 208px;
+height: 43px;
+left: 100px;
+top: 16px;
+word-spacing: 30px;
+}
+
+.produtos{
+
+position: absolute;
+width: 130px;
+height: 36px;
+left: 700px;
+top: 16px;
+word-spacing: 30px;
+}
+
+.contato{
+    
+position: absolute;
+width: 112px;
+height: 36px;
+left: 900px;
+top: 16px;
+word-spacing: 30px;
+}
+
+.home{
+    
+ position: absolute;
+width: 69px;
+height: 36px;
+left: 1000px;
+top: 16px;
+word-spacing: 30px;
+
+}
+
+.quem{
+    position: absolute;
+    width: 156px;
+    height: 36px;
+    left: 1100px;
+    top: 16px;
+    word-spacing: 10px;
+}
+
+.lojas{
+    position: absolute;
+    width: 74px;
+    height: 36px;
+    left: 1300px;
+    right: 1000px;
+    top: 19px;
+    word-spacing: 30px;
+}
+
+.meioimg{
+    height: 90vh;
+}
+
+
