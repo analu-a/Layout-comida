@@ -19,10 +19,10 @@ header{
 }
 
 main{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFC1CC;
+   height: 100%;
+   width: 100%;
+   background-color: #FFC1CC;
+  
 }
 
 
@@ -87,8 +87,59 @@ word-spacing: 30px;
     word-spacing: 30px;
 }
 
+.meio{
+    width: 100%;
+    height: 100%;
+}
 .meioimg{
-    height: 90vh;
+    position: absolute;
+    height: 78vh;
+    width: 33vw;
+    left: 35%;
+    top: 9.8rem;
+}
+.centro{
+    height: 100%;
+    width: 100%;
 }
 
+.cupcakes{
 
+    width: 100% ;
+    height: 100%;
+}
+
+.cup1{
+    position: absolute;
+    left: 15%;
+    height: 20vh;
+    width: 28vh;
+   top: 18rem;
+}
+
+.cup2{
+    position: absolute;
+    left: 8%;
+    height: 35vh;
+    width: 20vw;
+   top: 9rem;
+   transform: rotate(-4.5deg);
+}
+
+.cup3{
+    position: absolute;
+    left: 8%;
+    height: 38vh;
+    width: 30vw;
+   top: 1.5rem;
+   transform: rotate(-5deg);
+}
+
+.cup4{
+    position: absolute;
+    left: 36.8%;
+    height: 20vh;
+    width: 15vw;
+   top: -1rem;
+  
+}
