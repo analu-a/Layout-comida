@@ -15,6 +15,7 @@ header{
     background-color: #FDF3EC;
     font-size: 1.5rem;
     display: grid;
+    z-index: 2;
    
 }
 
@@ -111,15 +112,15 @@ word-spacing: 30px;
 
 .cup1{
     position: absolute;
-    left: 15%;
-    height: 20vh;
+    left: 15.5%;
+    height: 18vh;
     width: 28vh;
-   top: 18rem;
+   top: 18.4rem;
 }
 
 .cup2{
     position: absolute;
-    left: 8%;
+    left: 10%;
     height: 35vh;
     width: 20vw;
    top: 9rem;
@@ -128,18 +129,27 @@ word-spacing: 30px;
 
 .cup3{
     position: absolute;
-    left: 8%;
-    height: 38vh;
-    width: 30vw;
+    left: 9%;
+    height: 43.5vh;
+    width: 29.5vw;
    top: 1.5rem;
    transform: rotate(-5deg);
 }
 
 .cup4{
     position: absolute;
-    left: 36.8%;
+    left: 37%;
     height: 20vh;
     width: 15vw;
-   top: -1rem;
+   top: -0.5rem;
   
+}
+
+.cup5{
+
+    position: absolute;
+    left: 60%;
+    height: 20vh;
+    width: 15vw;
+   top: 3.8rem;
 }
