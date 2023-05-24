@@ -9,6 +9,7 @@ body{
     width: 100vw;
     display: grid;
     grid-template-rows: 50px 1fr ;
+    overflow: hidden;
 }
 
 header{
@@ -98,6 +99,7 @@ word-spacing: 30px;
     width: 33vw;
     left: 35%;
     top: 9.8rem;
+    
 }
 .centro{
     height: 100%;
@@ -113,9 +115,9 @@ word-spacing: 30px;
 .cup1{
     position: absolute;
     left: 15.5%;
-    height: 18vh;
-    width: 28vh;
-   top: 18.4rem;
+    height: 19vh;
+    width: 29vh;
+   top: 19rem;
 }
 
 .cup2{
@@ -148,8 +150,53 @@ word-spacing: 30px;
 .cup5{
 
     position: absolute;
+    left: 59%;
+    height: 29vh;
+    width: 14vw;
+    top: 0.8rem;
+   transform: rotate(8deg);
+}
+
+.cup6{
+
+    position: absolute;
     left: 60%;
-    height: 20vh;
-    width: 15vw;
-   top: 3.8rem;
+    height: 38vh;
+    width: 20vw;
+    top: 8rem;
+   transform: rotate(9deg);
+}
+
+.cup7{
+
+    position: absolute;
+    left: 61.5%;
+    height: 26vh;
+    width: 16vw;
+    top: 18rem;
+   transform: rotate(2deg);
+}
+
+.escrita__meio{
+    font-weight: 600;
+    padding: 16px;
+    position: absolute;
+    left: 45%;
+    top: 16rem;
+    font-size: 60px;
+    padding: 600;
+    color: #6B6464;
+}
+
+button{
+    background-color: #FFC1CC;
+    width: 9rem;
+    height: 3rem;
+    position: absolute;
+    left: 46.5%;
+    top: 36rem;
+    border-radius: 40%;
+    border: none;
+    color: #FDF3EC;
+    padding: 600;
 }
