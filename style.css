@@ -194,9 +194,19 @@ button{
     height: 3rem;
     position: absolute;
     left: 46.5%;
-    top: 36rem;
-    border-radius: 40%;
+    top: 35rem;
+    border-radius: 30%;
     border: none;
     color: #FDF3EC;
     padding: 600;
 }
+
+.estrela2{
+    width: 18em;
+    height: 10em;
+    position: absolute;
+    left: 56%;
+    top: 14rem;
+}
+
+
