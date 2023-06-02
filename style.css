@@ -27,66 +27,31 @@ main{
   
 }
 
-
-
-
 .padaria{
-position: absolute;
-width: 208px;
-height: 43px;
-left: 100px;
-top: 16px;
-word-spacing: 30px;
-}
 
-.produtos{
-
-position: absolute;
-width: 130px;
-height: 36px;
-left: 700px;
-top: 16px;
-word-spacing: 30px;
-}
-
-.contato{
-    
-position: absolute;
-width: 112px;
-height: 36px;
-left: 900px;
-top: 16px;
-word-spacing: 30px;
-}
-
-.home{
-    
- position: absolute;
-width: 69px;
-height: 36px;
-left: 1000px;
-top: 16px;
-word-spacing: 30px;
-
-}
-
-.quem{
     position: absolute;
-    width: 156px;
-    height: 36px;
-    left: 1100px;
-    top: 16px;
-    word-spacing: 10px;
+    left: 6%;
+    color: #6B6464;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 200;
+    font-size: 1.2rem;
+    top: 0.6em;
+
 }
 
-.lojas{
+
+
+.title{
     position: absolute;
-    width: 74px;
-    height: 36px;
-    left: 1300px;
-    right: 1000px;
-    top: 19px;
-    word-spacing: 30px;
+    right: 10%;
+    display: flex;
+    gap: 30px;
+    color: #6B6464;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 200;
+    font-size: 1rem;
+    top: 0.6em;
+    
 }
 
 .meio{
@@ -104,6 +69,7 @@ word-spacing: 30px;
 .centro{
     height: 100%;
     width: 100%;
+    filter: drop-shadow(10px 10px 4px rgba(255, 172, 187, 0.6));
 }
 
 .cupcakes{
@@ -178,35 +144,51 @@ word-spacing: 30px;
 }
 
 .escrita__meio{
-    font-weight: 600;
+    font-weight: 500;
     padding: 16px;
     position: absolute;
-    left: 45%;
-    top: 16rem;
-    font-size: 60px;
+    left: 42%;
+    top: 15.5rem;
+    font-size: 80px;
     padding: 600;
     color: #6B6464;
+    font-family: 'Spirax', cursive;
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.09);
 }
 
-button{
-    background-color: #FFC1CC;
-    width: 9rem;
-    height: 3rem;
+p{
     position: absolute;
-    left: 46.5%;
-    top: 35rem;
-    border-radius: 30%;
-    border: none;
+    width: 10rem;
+    height: 4em;
+    left: 46%;
+    top: 36rem;
+    background: #FFC1CC;
+    border-radius: 78px;
+    text-align: center;
+    line-height: 4em;
+    font-family: 'Spicy Rice', cursive;
     color: #FDF3EC;
-    padding: 600;
+    font-weight: 400;
+    text-shadow: 8px 8px 4px rgba(255, 72, 72, 0.25);
+   
+
+    
 }
 
 .estrela2{
-    width: 18em;
-    height: 10em;
+    width: 5em;
+    height: 5em;
     position: absolute;
-    left: 56%;
-    top: 14rem;
+    left: 51%;
+    top: 7.6rem;
+   
 }
 
-
+.estrela1{
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    left: 36%;
+    top: 10.6rem;
+   
+}
